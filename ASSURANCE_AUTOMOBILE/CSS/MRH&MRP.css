@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto+Mono:ital@1&family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+}
+
+/* ******************** header ************************* */
+#lei{
+    color: white;
+    font-size: 30px;
+    height: 30px;
+    font-family: poppins;
+}
+#logo{
+    color: #2433BB;
+    font-weight: bold;
+}
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    background-color: #5BADD0;
+}
+.dropdownmenu {
+   
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+  }
+  .dropdownmenu ul {
+    display: none;
+  }
+  .dropdownmenu,
+  .dropdownmenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dropdownmenu a {
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 35px;
+    font-family: poppins;
+    font-size:18px ;
+    font-style: normal;
+    font-weight: 700;
+    
+  }
+  .dropdownmenu li {
+    position: relative;
+  }
+  .dropdownmenu li:hover {
+    background-color:#52E3DB;
+    
+  }
+  .dropdownmenu a:hover {
+    color:black;
+  }
+  .dropdownmenu li:hover ul {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 100;
+    width: 280px;
+    background-color:#e9dcdc7b;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.25);
+    transition: all 2s ease-out;
+    color: fff;
+  }
+  .dropdownmenu ul a:hover {
+    color: black;
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+    width: 280px;
+    border-left: 2px solid #5BADD0;
+    
+  }
+ .dropdownmenu ul li:hover{
+    border-bottom: 1px solid black;
+ }
+.inscrire
+{
+    padding: 10px;
+    border: 0;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    background-color:  #3546E5;
+}
+
+.connecte{
+    padding: 10px;
+    border: 0;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    transition: all 2s ease-out;
+}
+.connecte:hover{
+    padding: 10px;
+    border: 0;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    background-color:  #52E3DB;
+}
+
+.banner{
+  width: 100%;
+  height: 750px;
+  background-image: url('../image/1.jpg') ;
+  position: relative;
+  background-size:100% 750px;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  margin-bottom:60px ;
+}
+.texte{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 2;
+  color: #fff;
+}
+#bienvenue
+{
+  font-size: 25px;
+}
+
+/************** Choisir les differentes Multirisques **********************/
+
+
+#mrh{
+  width: 100%;
+  height: 80vh;
+  /* background-color: #e9dcdc7b; */
+  margin: 4% 0;
+}
+
+.MrhMrp {
+    width: 50%;
+    height: 60%;
+    /* background-color: #52E3DB; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mrh, .mrp
+{
+  width: 45%;
+  height: 100%;
+  border: 1px solid black
+}
+.imgMrh, .imgMrp {
+  width: 100%;
+  height: 40%;
+}
+.imgMrh img, .imgMrp img
+{
+  width: 100%;
+  height: 100%;
+}
+.MrhTExt, .MrpTExt
+{
+  width: 100%;
+  height: 40%;
+}
+.MrhTExt h2, .MrpTExt h2
+{
+  color: #2433BB;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 6% 0;
+  padding: 0 10px
+}
+.MrhTExt p, .MrpTExt p
+{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: start;
+  padding: 0 10px;
+}
+
+.Mrhbtn, .Mrpbtn
+{
+  width: 100%;
+  height: 20%;
+
+}
+.Mrpbtn button, .Mrhbtn button{
+  width: 209px;
+  height: 51px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-color: #242EBB;
+  border:none;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/**********************     Footer       **************************/
+
+
+.footer
+{
+  width: 100%;
+  height: 207px;
+  background: rgba(0, 0, 0, 0.71);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30%
+}
+.footer div
+{
+  width: 55px;
+  height: 65px;
+}
+
+.fa-brands
+{
+  font-size: 4.5em;
+}
